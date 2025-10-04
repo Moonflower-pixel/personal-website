@@ -9,7 +9,10 @@
 		height: 73px;
 		flex-shrink: 0;
 		background: #3C3CA1;
+		text-align: center;
 	}
+	/* header at the top of the page.*/
+	
 	.button {
 		width: 232px;
 		height: 43px;
@@ -17,19 +20,86 @@
 		flex-shrink: 0;
 		background: #030340;
 	}
+	/* not implimented yet. this will be the drop down button for the website, making it easy to see what they want.*/ 
 	
-	.bimg {
+	img {
 		width: 392px;
 		height: 221px;
 		flex-shrink: 0;
 		aspect-ratio: 392/221;
 	}
-	.blocks {
+	/* used for the background image which is used for the img under the text. this keeps it the same size.*/
+	
+	* {
+  		box-sizing: border-box;
+	}
+
+	.flex-container {
+  		display: flex;
+  		flex-wrap: wrap;
+  		font-size: 30px;
+  		text-align: center;
+	}
+	
+	/* used for div container, this helps the boxes stay aligned and centered in the page.*/
+
+	.flex-item-left {
+ 	 	background-color: #f1f1f1;
+  		padding: 10px;
+		padding-left: 10px;
+  		flex: 100%;
+	}
+	/* flex left will push the box all the way to the left, making sure it stays on top if there is no room on the right.*/
+
+	.flex-item-right {
+  		background-color: dodgerblue;
+  		padding: 15px;
+  		flex: 100%;
+	}
+	/* flex is used to keep the box to the right until it cannot fit on the screen anymore, which it will be moved down under one.*/
+	
+	.sizebox {
 		width: 339px;
 		height: 385px;
 		flex-shrink: 0;
-		background: #3C3CA1;
 	}
+	/* Size fo all boxes in mobile (not working)*/
+	
+	.centered {
+  		position: absolute;
+  		top: 23%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+}
+	/* centered keep the text above the image centered within the image. changing the % will change on where it will be. */
+	
+	.toph {
+			color: #FFF;
+			text-align: center;
+			font-family: "Abhaya Libre Medium";
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+	}
+	/* toph is top header. top header is used on the text above the picture */
+	
+	
+	.ab {
+		width: 193px;
+		height: 193px;
+		flex-shrink: 0;
+		aspect-ratio: 1/1;
+	}
+	/* ab is About Me picture. this is used tp properly scale the image to the right size */
+	
+	.port {
+		width: 276px;
+		height: 155px;
+		flex-shrink: 0;
+		aspect-ratio: 276/155;
+	}
+	/* Portfolio img*/
 
 }
 
@@ -48,5 +118,47 @@
 		height: 686px;
 		flex-shrink: 0;
 		background: #3C3CA1;
+		flex: 100%;
+	}
+	.flex-container {
+  		display: flex;
+  		flex-wrap: wrap;
+  		font-size: 30px;
+  		text-align: center;
+	}
+	
+	.flex-item-right {
+		background-color: dodgerblue;
+	}
+	
+	.flex-item-right, .flex-item-left {
+    	flex: 50%;
+  	}
+	
+	.container {
+  		position: flex;
+  		text-align: center;
+  		color: white;
+	}
+	.centered {
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
+	img {
+		width: 1262px;
+		height: 710px;
+		flex-shrink: 0;
+		aspect-ratio: 631/355;
+	}
+	.toph {
+		color: #FFF;
+		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
 	}
 }
