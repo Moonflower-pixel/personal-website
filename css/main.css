@@ -9,7 +9,6 @@
 		height: 73px;
 		flex-shrink: 0;
 		background: #3C3CA1;
-		text-align: center;
 	}
 	/* header at the top of the page.*/
 	
@@ -100,6 +99,10 @@
 		aspect-ratio: 276/155;
 	}
 	/* Portfolio img*/
+	
+	.middle {
+		text-align: center;
+	}
 
 }
 
@@ -161,4 +164,19 @@
 		font-weight: 500;
 		line-height: normal;
 	}
+	.ab {
+		width: 345px;
+		height: 345px;
+		flex-shrink: 0;
+		aspect-ratio: 1/1;
+	}
+	/* ab is About Me picture. this is used tp properly scale the image to the right size */
+	
+	.port {
+		width: 345px;
+		height: 345px;
+		flex-shrink: 0;
+		aspect-ratio: 1/1;
+	}
+	/* Portfolio img*/
 }
