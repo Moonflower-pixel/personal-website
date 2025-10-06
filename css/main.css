@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
+@import "nav.css";
+
 @media (max-width: 430px){
 	body {
 		background-color: #6767C3;
 	}
 	.header {
 		text-align: center;
-		width: 430px;
+		width: 393px;
 		height: 73px;
 		flex-shrink: 0;
 		background: #3C3CA1;
@@ -22,10 +24,10 @@
 	}
 	/* not implimented yet. this will be the drop down button for the website, making it easy to see what they want.*/ 
 	
-	img {
+	.img2 {
 		width: 392px;
 		height: 221px;
-		flex-shrink: 0;
+		lex-shrink: 0;
 		aspect-ratio: 392/221;
 	}
 	/* used for the background image which is used for the img under the text. this keeps it the same size.*/
@@ -101,6 +103,13 @@
 	}
 	/* Portfolio img*/
 	
+	.contactbtn{
+		width: 210px;
+		height: 43px;
+		flex-shrink: 0;
+		background: #B2B2FF;
+	}
+	
 
 }
 
@@ -109,6 +118,7 @@
 		background-color: #6767C3;
 	}
 	.header {
+		text-align: center;
 		width: 1441px;
 		height: 133px;
 		flex-shrink: 0;
@@ -147,7 +157,7 @@
   		left: 50%;
   		transform: translate(-50%, -50%);
 	}
-	img {
+	.img2 {
 		width: 1262px;
 		height: 710px;
 		flex-shrink: 0;

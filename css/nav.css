@@ -1,0 +1,54 @@
+/* CSS Document */
+
+ul {
+	list-style: none;
+	background: #ACEB98;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+}
+
+ul li a {
+	display: block;
+	padding: 20 25px;
+	color: #025875;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+ul li ul.dropdown li {
+	display: block;
+}
+
+ul li ul.dropdown {
+	width: 100%;
+	background: #79DE59;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+ul li a:hover {
+	background: #025875;
+}
+
+ul li:hover ul.dropdown {
+	display: block;
+}
+
+a:link, a:visited {
+  background-color: #ACEB98;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+	color: white;
+  background-color: #0587B3;
+}
