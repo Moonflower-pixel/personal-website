@@ -64,6 +64,7 @@
 		width: 339px;
 		height: 385px;
 		flex-shrink: 0;
+		background-color: aquamarine;
 	}
 	/* Size fo all boxes in mobile (not working)*/
 	
@@ -104,11 +105,14 @@
 	/* Portfolio img*/
 	
 	.contactbtn{
+		text-align: center;
+		color: white;
 		width: 210px;
 		height: 43px;
 		flex-shrink: 0;
 		background: #B2B2FF;
 	}
+	/*light purple button*/
 	
 
 }
@@ -187,4 +191,13 @@
 		aspect-ratio: 1/1;
 	}
 	/* Portfolio img*/
+	
+	.contactbtn{
+		text-align: center;
+		color: white;
+		width: 318px;
+		height: 64px;
+		flex-shrink: 0;
+		background: #B2B2FF;
+	}
 }
