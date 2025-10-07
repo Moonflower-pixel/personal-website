@@ -13,6 +13,7 @@
 		flex-shrink: 0;
 		background: #3C3CA1;
 	}
+	
 	/* header at the top of the page.*/
 	
 	.button {
@@ -22,7 +23,12 @@
 		flex-shrink: 0;
 		background: #030340;
 	}
-	/* not implimented yet. this will be the drop down button for the website, making it easy to see what they want.*/ 
+	/*ONLY FOR MOBILE */
+	
+	.button:hover {
+		background: #B2B2FF;
+	}
+	/*Changed colour when box is hovered over. */
 	
 	.img2 {
 		width: 392px;
@@ -49,7 +55,8 @@
  	 	background-color: #f1f1f1;
   		padding: 10px;
 		padding-left: 10px;
-  		flex: 100%;
+  		flex: 90%;
+		align-content: center;
 	}
 	/* flex left will push the box all the way to the left, making sure it stays on top if there is no room on the right.*/
 
@@ -67,6 +74,45 @@
 		background-color: aquamarine;
 	}
 	/* Size fo all boxes in mobile (not working)*/
+	.sizebox1 {
+		width: 339px;
+		height: 385px;
+		flex-shrink: 0;
+		border-top: 304px;
+		border-bottom: 1523px;
+		border-left: 25.5px;
+		border-right: 28.5;
+	}
+	
+	.sizebox2 {
+		width: 339px;
+		height: 385px;
+		flex-shrink: 0;
+		border-top: 728px;
+		border-bottom: 1099px;
+		border-left: 25.5px;
+		border-right: 28.5px;
+	}
+	
+	.sizebox3 {
+		width: 339px;
+		height: 385px;
+		flex-shrink: 0;
+		border-top: 1152px;
+		border-bottom: 675px;
+		border-left: 25.5px;
+		border-right: 28.5px;
+	}
+	
+	.sizebox4 {
+		width: 339px;
+		height: 385px;
+		flex-shrink: 0;
+		border-top: 1576px;
+		border-bottom: 251px;
+		border-left: 25.5px;
+		border-right: 28.5px;
+	}
 	
 	.centered {
   		position: absolute;
@@ -113,6 +159,12 @@
 		background: #B2B2FF;
 	}
 	/*light purple button*/
+	
+	nav.hidden {
+		display: none;
+	}
+	
+	.dropdown:hover .dropdown-content {display: block;}
 	
 
 }
@@ -200,4 +252,10 @@
 		flex-shrink: 0;
 		background: #B2B2FF;
 	}
+	
+	nav.hidden {
+		display: block;
+	}
+	
 }
+

@@ -2,7 +2,7 @@
 
 ul {
 	list-style: none;
-	background: #ACEB98;
+	background: #3C3CA1;
 }
 
 ul li {
@@ -12,11 +12,11 @@ ul li {
 
 ul li a {
 	display: block;
-	padding: 20 25px;
+	padding: 2px 10px;
 	color: #025875;
 	text-decoration: none;
 	text-align: center;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 ul li ul.dropdown li {
@@ -25,14 +25,14 @@ ul li ul.dropdown li {
 
 ul li ul.dropdown {
 	width: 100%;
-	background: #79DE59;
+	background: #6767C3;
 	position: absolute;
 	z-index: 999;
 	display: none;
 }
 
 ul li a:hover {
-	background: #025875;
+	background: #B2B2FF;
 }
 
 ul li:hover ul.dropdown {
@@ -40,9 +40,9 @@ ul li:hover ul.dropdown {
 }
 
 a:link, a:visited {
-  background-color: #ACEB98;
+  background-color: #3C3CA1;;
   color: black;
-  padding: 15px 25px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -50,5 +50,5 @@ a:link, a:visited {
 
 a:hover, a:active {
 	color: white;
-  background-color: #0587B3;
+  background-color: #B2B2FF;
 }
