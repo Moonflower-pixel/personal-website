@@ -16,6 +16,12 @@
 	
 	/* header at the top of the page.*/
 	
+	.table-center {
+		width: 80%; /* Or any specific width less than 100% */
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+	
 	.button {
 		width: 232px;
 		height: 43px;
