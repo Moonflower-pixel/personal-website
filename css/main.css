@@ -74,6 +74,7 @@
 		background-color: aquamarine;
 	}
 	/* Size fo all boxes in mobile (not working)*/
+	
 	.sizebox1 {
 		width: 339px;
 		height: 385px;
@@ -116,7 +117,7 @@
 	
 	.centered {
   		position: absolute;
-  		top: 23%;
+  		top: 35%;
   		left: 50%;
   		transform: translate(-50%, -50%);
 }
@@ -148,6 +149,7 @@
 		flex-shrink: 0;
 		aspect-ratio: 276/155;
 	}
+	
 	/* Portfolio img*/
 	
 	.contactbtn{
@@ -209,7 +211,7 @@
 	}
 	.centered {
   		position: absolute;
-  		top: 50%;
+  		top: 65%;
   		left: 50%;
   		transform: translate(-50%, -50%);
 	}
