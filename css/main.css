@@ -2,6 +2,8 @@
 
 @import "nav.css";
 
+@import "navlinestick";
+
 @media (max-width: 430px){
 	body {
 		background-color: #6767C3;
@@ -9,15 +11,23 @@
 	.header {
 		text-align: center;
 		width: 393px;
-		height: 73px;
+		height: 120px;
 		flex-shrink: 0;
 		background: #3C3CA1;
 	}
 	
 	/* header at the top of the page.*/
 	
+	.header2 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		flex-shrink: 0;
+		width: 50%;
+	}
+	
 	.table-center {
-		width: 80%; /* Or any specific width less than 100% */
+		width: 85%; /* Or any specific width less than 100% */
   		margin-left: auto;
   		margin-right: auto;
 	}
@@ -41,6 +51,7 @@
 		height: 221px;
 		lex-shrink: 0;
 		aspect-ratio: 392/221;
+		padding: 1%
 	}
 	/* used for the background image which is used for the img under the text. this keeps it the same size.*/
 	
@@ -89,6 +100,7 @@
 		border-bottom: 1523px;
 		border-left: 25.5px;
 		border-right: 28.5;
+		padding: 15%
 	}
 	
 	.sizebox2 {
@@ -130,13 +142,14 @@
 	/* centered keep the text above the image centered within the image. changing the % will change on where it will be. */
 	
 	.toph {
-			color: #FFF;
-			text-align: center;
-			font-family: "Abhaya Libre Medium";
-			font-size: 20px;
-			font-style: normal;
-			font-weight: 500;
-			line-height: normal;
+		color: #FFF;
+		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		padding-top: 30%
 	}
 	/* toph is top header. top header is used on the text above the picture */
 	
@@ -173,6 +186,22 @@
 	}
 	
 	.dropdown:hover .dropdown-content {display: block;}
+	
+	.logo {
+		width: 70px;
+		height: 68px;
+		flex-shrink: 0;
+	}
+	
+	.contact {
+		text-align: center;
+	}
+	
+	.footerpad{
+		padding-top: 10%;
+		padding-left: 26%;
+		padding-right: 26%;
+	}
 	
 
 }
@@ -221,12 +250,18 @@
   		left: 50%;
   		transform: translate(-50%, -50%);
 	}
+	
 	.img2 {
 		width: 1262px;
 		height: 710px;
 		flex-shrink: 0;
 		aspect-ratio: 631/355;
+		justify-content: center;
+  		align-items: center;
 	}
+	
+	/* used for the background image which is used for the img under the text. this keeps it the same size. Reach out to Glenn for this issue.*/
+	
 	.toph {
 		color: #FFF;
 		text-align: center;
@@ -263,6 +298,41 @@
 	
 	nav.hidden {
 		display: block;
+	}
+	
+	.logo {
+		width: 70px;
+		height: 68px;
+		flex-shrink: 0;
+	}
+	
+	.table-center {
+		width: 80%; /* Or any specific width less than 100% */
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+	
+	.button {
+		width: 332px;
+		height: 143px;
+		padding-left: 50%;
+		flex-shrink: 0;
+		background: #030340;
+	}
+	/*ONLY FOR MOBILE */
+	
+	.button:hover {
+		background: #B2B2FF;
+	}
+	
+	.contact {
+		text-align: center;
+	}
+	
+	.footerpad{
+		padding-top: 10%;
+		padding-left: 38%;
+		padding-right: 34%;
 	}
 	
 }
