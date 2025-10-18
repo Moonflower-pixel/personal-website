@@ -3,17 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
-<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
 	<script src="java/navline.js"></script>
+	<script src="java/sticky.js"></script>
 </head>
 
 <body>
-	<header class="header">
+	<header class="header" id="myHeader">
 		
 		<!-- WIP -->
-	  <table width="64%" class="table-center">
+	  <table width="26%" class="table-center">
 			<tr>
-				<th width="9%" height="112"><div class="dropdown">
+				<th width="7%" height="112"><div class="dropdown">
 				  <button class="dropbtn"><img src="https://placehold.co/40" alt="placeholder"></button>
 				  <div class="dropdown-content"> <a href="#">Home</a> <a href="#">About me</a>
 				    <div class="dropdown2">
@@ -22,9 +26,8 @@
 			        </div>
 				    <a href="#">Link 3</a> </div>
 			    </div></th>
-				<!--Logo needs to be replaced with actual logo -->
-				<th width="29%"><img class = "logo" src="img/Moonflower background compressed.jpg" alt="logo"></th>
-				<th width="62%"><h1>Blooming Studio</h1></th>
+				<th width="18%"><img class = "logo" src="img/bloomstudio logo.png" alt="logo"></th>
+				<th width="75%"><h1>Blooming Studio</h1></th>
 			</tr>
 		</table>
 <nav class="hidden">
@@ -58,16 +61,23 @@
   </div>
 		<!--start of the blocks of the sections -->
 			<div class="flex-container">
-  				<div class="flex-item-left sizebox1"><div><img class="ab" src="img/Moonflower background compressed.jpg" alt = "Moonflower background"> <h3>About me</h3></div></div>
-	  		<div class="flex-item-right sizebox2"><img class="port" src="img/blooming studios 2.jpg" alt="a photo of two business cards"><h3>Portfolio</h3></div>
-				<div class="flex-item-left sizebox3"><img class="ab" src="img/Moonflower background compressed.jpg" alt = "Moonflower background"> <h3>About me</h3></div>
-	  		<div class="flex-item-right sizebox4"><img class="port" src="img/blooming studios 2.jpg" alt="a photo of two business cards"><h3>Portfolio</h3></div>
+				<!--About me box -->
+  				<div class="flex-item-left sizebox1"><a href="#"><div><img class="ab" src="img/Moonflower background compressed.jpg" alt = "Moonflower background"> <h3>About me</h3></div><p>here, you will find everything about me and why im such a good fit for your creations!</p></a></div>
+				
+				<!--Portfolio box -->
+	  			<div class="flex-item-right sizebox2"><a href="#"><img class="port" src="img/blooming studios 2.jpg" alt="a photo of two business cards"><h3>Portfolio</h3> <p>All of my projects together for easy finds and exploration. this includes but not limited to Modeling, Design, Illustrations. all together!</p></a></div>
+				
+				<!--Style Media box -->
+				<div class="flex-item-left sizebox3"><a href="#"><img class="ab" src="img/tea.png" alt = "Moonflower background"> <h3>Style/media</h3><p>Looking for a certain style or certain type of Media? check here! everything is organized and styled, going to your needs.</p></a></div>
+				
+				<!--Quote box-->
+	  		<div class="flex-item-right sizebox4"><a href="#"><img class="port" src="img/alien cat green Sticker.png" alt="a photo of two business cards"><h3>Quotes</h3><p>Interested and want a quote or have an idea on how much it will cost? i will go over the base cost of everything!</p></a></div>
 		</div>
 </main>
 	
 	<footer>
 		<div class="footerpad">
-			<button class="contactbtn"><h3>Contact me!</h3></button>
+			<a href="#"><button class="contactbtn"><h3>Contact me!</h3></button></a>
 			<p class="contact">Email: emilybryant2004@gmail.com</p>
 			<p class="contact">instagram: Can_not_open</p>
 			<p class="contact">Discord: owomoonflowerowo</p>

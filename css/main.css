@@ -14,6 +14,8 @@
 		height: 120px;
 		flex-shrink: 0;
 		background: #3C3CA1;
+		font-family: "Abhaya Libre Medium";
+		position: sticky;
 	}
 	
 	/* header at the top of the page.*/
@@ -69,7 +71,7 @@
 	/* used for div container, this helps the boxes stay aligned and centered in the page.*/
 
 	.flex-item-left {
- 	 	background-color: #f1f1f1;
+ 	 	background-color: #3C3CA1;
   		padding: 10px;
 		padding-left: 10px;
   		flex: 90%;
@@ -78,59 +80,62 @@
 	/* flex left will push the box all the way to the left, making sure it stays on top if there is no room on the right.*/
 
 	.flex-item-right {
-  		background-color: dodgerblue;
+  		background-color: #3C3CA1;
   		padding: 15px;
   		flex: 100%;
 	}
 	/* flex is used to keep the box to the right until it cannot fit on the screen anymore, which it will be moved down under one.*/
 	
 	.sizebox {
-		width: 339px;
-		height: 385px;
+		width: 40%;
+		height: 40%;
 		flex-shrink: 0;
 		background-color: aquamarine;
 	}
 	/* Size fo all boxes in mobile (not working)*/
 	
 	.sizebox1 {
-		width: 339px;
-		height: 385px;
+		width: 40%;
+		height: 40%;
 		flex-shrink: 0;
 		border-top: 304px;
 		border-bottom: 1523px;
 		border-left: 25.5px;
 		border-right: 28.5;
-		padding: 15%
+		padding: 5%
 	}
 	
 	.sizebox2 {
-		width: 339px;
-		height: 385px;
+		width: 40%;
+		height: 40%;
 		flex-shrink: 0;
 		border-top: 728px;
 		border-bottom: 1099px;
 		border-left: 25.5px;
 		border-right: 28.5px;
+		padding: 5%;
 	}
 	
 	.sizebox3 {
-		width: 339px;
-		height: 385px;
+		width: 40%;
+		height: 40%;
 		flex-shrink: 0;
 		border-top: 1152px;
 		border-bottom: 675px;
 		border-left: 25.5px;
 		border-right: 28.5px;
+		padding: 5%;
 	}
 	
 	.sizebox4 {
-		width: 339px;
-		height: 385px;
+		width: 40%;
+		height: 40%;
 		flex-shrink: 0;
 		border-top: 1576px;
 		border-bottom: 251px;
 		border-left: 25.5px;
 		border-right: 28.5px;
+		padding: 5%;
 	}
 	
 	.centered {
@@ -171,6 +176,13 @@
 	
 	/* Portfolio img*/
 	
+	.all {
+		width: 276px;
+		height: 155px;
+		flex-shrink: 0;
+		aspect-ratio: 276/155;
+	}
+	
 	.contactbtn{
 		text-align: center;
 		color: white;
@@ -195,6 +207,8 @@
 	
 	.contact {
 		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		color: white;
 	}
 	
 	.footerpad{
@@ -298,6 +312,7 @@
 	
 	nav.hidden {
 		display: block;
+		font-family: "Abhaya Libre Medium";
 	}
 	
 	.logo {
@@ -327,12 +342,18 @@
 	
 	.contact {
 		text-align: center;
+		font-family: "Abhaya Libre Medium";
+		color: white;
 	}
 	
 	.footerpad{
 		padding-top: 10%;
 		padding-left: 38%;
 		padding-right: 34%;
+	}
+	
+	table {
+		width: 80%;
 	}
 	
 }
