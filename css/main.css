@@ -8,6 +8,12 @@
 	body {
 		background-color: #6767C3;
 	}
+	
+	.menu {
+		width: 40px;
+		height: 40px;
+	}
+	
 	.header {
 		text-align: center;
 		width: 393px;
@@ -224,6 +230,12 @@
 	body {
 		background-color: #6767C3;
 	}
+	
+	.menu {
+		width: 40px;
+		height: 40px;
+	}
+	
 	.header {
 		text-align: center;
 		width: 1441px;
